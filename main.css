@@ -8,7 +8,7 @@
 .box{
     width:800px;
     height:360px;
-    margin:100px auto 0;
+    margin:200px auto 0;
 }
 
 .box > #wrapper{
@@ -83,6 +83,9 @@
     text-align: center;
 }
 .box > #buttons > li{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     float:left;
     width:30px;
     height:30px;
@@ -90,8 +93,6 @@
     font-size:20px;
     font-style: italic;
     background:#ddd;
-    text-align:center;
-    padding:2px;
     margin-left:10px;
     cursor:pointer;
 }
