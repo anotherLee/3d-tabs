@@ -77,8 +77,10 @@
 
 
 .box > #buttons{
-    float:right;
-    margin-top:30px;
+    margin-top:50px;
+    margin-left:45%;
+    /*border:1px solid red;*/
+    text-align: center;
 }
 .box > #buttons > li{
     float:left;
@@ -89,6 +91,7 @@
     font-style: italic;
     background:#ddd;
     text-align:center;
+    padding-top:5px;
     margin-left:10px;
     cursor:pointer;
 }
